@@ -1,0 +1,28 @@
+body {
+  font-family: $font-family !important;
+}
+
+.logo {
+  width: 80%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 700px !important;
+}
+
+.product-image {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  font-weight: bold !important;
+}
+
+.founder-img {
+  max-width: 150px;
+  border-radius: 100%;
+}

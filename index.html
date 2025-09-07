@@ -1,0 +1,35 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
+<div class="container">
+  <form class="border p-2 rounded">
+    <div class="mb-3">
+      <input type="email" class="form-control bg-white" id="interest_email" placeholder="Email">
+    </div>
+    <div class="d-grid gap-2">
+      <button type="submit" class="btn btn-primary">Register your interest</button>
+    </div>
+  </form>
+
+  <div class="text-center">
+    <p>{{ site.description }}<br>£129 each.</p>
+  </div>
+
+
+  {% include product_card.html image_src="/assets/img/red-one.png" title="The Red One" description="The classic, perfect for any occasion." %}
+
+  {% include product_card.html image_src="/assets/img/heart-one.jpg" title="The
+  Heart One" description="Show your love." %}
+
+  {% include product_card.html image_src="/assets/img/flag-one.jpg" title="The Flag
+  One" description="Perfect for showing your patriotism (or love of the US) in
+  style." %}
+
+  {% include product_card.html image_src="/assets/img/star-one.jpg" title="The
+  Star One" description="Be a superstar." %}
+
+</div>
